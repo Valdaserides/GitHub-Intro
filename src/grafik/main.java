@@ -44,7 +44,7 @@ public class main extends Application {
 	public void start(Stage primaryStage) throws Exception {
 
 		// Ändra siffran här nere till 1,2,3 eller 4 beroende på vilken vy du vill se!
-		makeView1();
+		makeView3();
 
 		primaryStage.setScene(new Scene(root, WIDTH, HEIGHT));
 		primaryStage.show();
@@ -110,7 +110,7 @@ public class main extends Application {
 		 * 		 Sedan måste mellanrummet mellan ringarna minska också...
 		 */
 
-		int rings = 15;
+		int rings = 150;
 
 		for (int i = rings; i >= 0; i--) {
 
